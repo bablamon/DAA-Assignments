@@ -22,5 +22,6 @@ g++ -O2 -o sol "Assignment - 01/code.cpp" && ./sol
 Assignments 1 and 2 read their CSV from the same folder — run the binary from inside that assignment's directory (or adjust the file path in the code).
 
 ## Author
-
+Atharva Padmakar Deshmukh
+TY BTECH IT
 124B1F150
