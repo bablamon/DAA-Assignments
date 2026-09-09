@@ -1,0 +1,21 @@
+STREAMFLIX MOVIE RECOMMENDATION
+
+Choose Recommendation Parameter
+1. IMDb Rating
+2. Release Year
+3. Popularity
+
+Enter your choice: 1
+How many movies do you want to display? 10
+
+No.  Movie Title                               Rating    Year    Popularity
+1    The Shawshank Redemption                  9.3       1994    2343110        
+2    The Godfather                             9.2       1972    1620367        
+3    The Dark Knight                           9.0       2008    2303232        
+4    The Godfather: Part II                    9.0       1974    1129952        
+5    12 Angry Men                              9.0       1957    689845         
+6    The Lord of the Rings: The Return of the  8.9       2003    1642758        
+7    Pulp Fiction                              8.9       1994    1826188        
+8    Schindler's List                          8.9       1993    1213505        
+9    Inception                                 8.8       2010    2067042        
+10   Fight Club                                8.8       1999    1854740        
