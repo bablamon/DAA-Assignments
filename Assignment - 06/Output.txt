@@ -1,0 +1,44 @@
+ DISASTER RELIEF TRUCK LOADING SYSTEM
+ 0/1 Knapsack using Dynamic Programming
+
+Enter number of items: 6
+Enter truck capacity (kg): 16
+Enter item details:
+Format: Name Weight Utility Perishable(1/0)
+
+Item 1: Water 6 30 0
+Item 2: Medicines 3 25 1
+Item 3: Food 4 20 1
+Item 4: Blankets 5 15 0
+Item 5: Tents 7 35 0
+Item 6: FirstAid 2 18 1
+
+ OPTIMAL TRUCK LOAD (DP)
+
+  Medicines (weight 3, utility 50)
+  Food (weight 4, utility 40)
+  Tents (weight 7, utility 35)
+  FirstAid (weight 2, utility 36)
+Total Weight Loaded : 16 kg
+Maximum Total Utility : 161
+
+ COMPARISON OF APPROACHES
+
+Dynamic Programming O(N*W) : 161
+Brute Force         O(2^N) : 161
+Greedy (by ratio) O(NlogN) : 156
+
+Enter number of additional trucks available: 1
+Capacity of truck 2 (kg): 12
+
+ TRUCK 2 LOAD
+
+  Water (weight 6, utility 30)
+  Blankets (weight 5, utility 15)
+Total Weight Loaded : 11 kg
+Total Utility : 45
+
+Items left undelivered : 0
+
+ SYSTEM FINISHED
+

@@ -1,0 +1,28 @@
+ SWIFTSHIP DELIVERY ROUTE OPTIMIZATION
+ TSP using LC Branch and Bound
+
+Enter number of cities: 5
+Enter cost matrix (fuel cost i -> j, 0 on diagonal):
+
+City 1: 0 20 30 10 11
+City 2: 15 0 16 4 2
+City 3: 3 5 0 2 4
+City 4: 19 6 18 0 3
+City 5: 16 4 7 16 0
+Enter starting city: 1
+
+ BRANCH AND BOUND SEARCH
+
+Initial Lower Bound (root) : 25
+Nodes Explored : 5
+Nodes Pruned   : 6
+
+ OPTIMAL DELIVERY ROUTE
+
+Optimal Route: 1 -> 4 -> 2 -> 5 -> 3 -> 1
+Minimum Tour Cost : 28
+Verified Cost (sum of edges) : 28
+Brute force would check 24 permutations.
+
+ SYSTEM FINISHED
+
